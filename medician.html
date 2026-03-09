@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trending Products</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+<div id="header"></div>
+
+
+<section class="medical-categories">
+
+    <div class="container">
+
+        <h2 class="section-title">Primary Medical Categories</h2>
+        <p class="section-subtitle">
+            Explore our specialized departments designed to provide comprehensive healthcare
+            solutions for professionals and patients like.
+        </p>
+
+        <div class="category-grid">
+
+            <!-- Card 1 -->
+            <div class="category-card">
+                <div class="icon-1">
+                    <i class="fa-solid fa-capsules"></i>
+                </div>
+                <h3>Medical Equipment</h3>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="category-card">
+                <div class="icon-1">
+                    <i class="fa-solid fa-stethoscope"></i>
+                </div>
+                <h3>Healthcare Products</h3>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="category-card">
+                <div class="icon-1">
+                    <i class="fa-solid fa-syringe"></i>
+                </div>
+                <h3>Medicines</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="products">
+
+    <!-- HEADING -->
+    <div class="heading">
+        <i class="fa-solid fa-droplet"></i>
+        <h2>Trending Products</h2>
+        <p>Medical products available at affordable prices</p>
+    </div>
+
+    <!-- SEARCH BAR -->
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search products...">
+        <i class="fa fa-search"></i>
+    </div>
+
+    <!-- PRODUCT GRID (Dynamic) -->
+    <div class="product-grid" id="productGrid"></div>
+<button id="loadMoreBtn" class="load-more">
+    More Products
+</button>
+</section>
+
+<div id="footer"></div>
+
+<a href="https://wa.me/+919251111030" 
+   class="whatsapp-float" 
+   target="_blank">
+
+   <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+<script src="script.js"></script>
+
+</body>
+</html>
