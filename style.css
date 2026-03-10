@@ -501,7 +501,13 @@ button:hover{
 }
 
 
+@media(max-width:700px){
 
+.products{
+    background:#475BDE;
+}
+
+}
 
 .services-section{
 padding: top 60px;;
@@ -674,6 +680,13 @@ grid-template-columns: 1fr;
 .service-card {
 padding: 30px;
 }
+}
+@media(max-width:700px){
+
+.services-section {
+    background:#475BDE;
+}
+
 }
 
 
@@ -973,7 +986,13 @@ text-align:center;
 
 }
 
+@media(max-width:700px){
 
+.medical-categories{
+    background:#475BDE;
+}
+
+}
 
 /* FOOTER */
 
@@ -1157,4 +1176,12 @@ justify-content:center;
 .values-grid{
     grid-template-columns:1fr;
 }
+}
+
+@media(max-width:700px){
+
+.core-values{
+    background:#475BDE;
+}
+
 }
